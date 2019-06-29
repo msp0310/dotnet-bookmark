@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>DotNetBookmark</RootNamespace>
+
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>bookmark</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <AssemblyName>dotnet-bookmark</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.0.1</Version>
+    <Authors>sawada makoto</Authors>
+    <Copyright>MIT</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>path manage application</Description>
+    <RepositoryUrl>https://github.com/msp0310/dotnet-bookmark</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/msp0310/dotnet-bookmark</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.3.4" />
+    <PackageReference Include="System.CommandLine.Experimental" Version="0.3.0-alpha.19317.1" />
+    <PackageReference Include="System.CommandLine.Rendering" Version="0.3.0-alpha.19317.1" />
+    <PackageReference Include="System.Interactive" Version="3.2.0" />
+    <PackageReference Include="TextCopy" Version="1.5.2" />
+    <PackageReference Include="Utf8Json" Version="1.3.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
