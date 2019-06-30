@@ -6,6 +6,10 @@
 
 Simple Bookmark(Path) Manage Application.
 
+## Installation
+
+> dotnet tool install --global dotnet-bookmark --version 0.0.1
+
 ## Usage
 
 > Simple Bookmark Console Application.                         
