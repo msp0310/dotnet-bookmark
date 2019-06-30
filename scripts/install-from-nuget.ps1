@@ -1,0 +1,1 @@
+﻿dotnet tool install --global dotnet-bookmark --version 0.0.1
