@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-bookmark", "src\dotnet-bookmark.csproj", "{D8D6A2C6-1CB5-4F4E-AE14-720827C6AD6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-bookmark.Tests", "dotnet-bookmark.Tests\dotnet-bookmark.Tests.csproj", "{97FEF49F-37F4-4994-A8F6-86DE5FB336C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-bookmark.Tests", "tests\dotnet-bookmark.Tests.csproj", "{97FEF49F-37F4-4994-A8F6-86DE5FB336C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
